@@ -1,0 +1,97 @@
+/* Style the header */
+header {
+    background-color: #e69a9a;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the logo */
+.logo {
+    position: absolute;
+    top: 10px;
+    left:10px;
+    width: 65px; /* Adjust the width as needed */
+}
+
+/* Style the main content */
+.content {
+    margin: 20px;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Style the question */
+.question {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #c41c35;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #d70c2a;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a41328;
+}
+
+/* Style the footer */
+footer {
+    background-color: #ec9a9a;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Responsive Styles for iPhone 11 and above */
+
+/* Adjust the layout for iPhone 11 and above */
+@media (min-device-width: 414px) and (min-device-height: 896px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        top: 10px;
+        left: 10px;
+        width: 50px;
+    }
+
+    .content {
+        margin: 10px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .question {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
